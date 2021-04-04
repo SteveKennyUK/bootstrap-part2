@@ -49,7 +49,7 @@
                     <li class="nav-item mr-2 d-block d-sm-none"><a href="/login" class="nav-link">Sign In / Sign Up</a></li>
                 </ul>
             </div>
-            <div class="d-none d-md-block">            
+            <div class="d-none d-lg-block">            
                 <p class="navbar-text my-auto mr-2"><i>Great whiskey delivered to your door!</i></p>
                 <a href="/login" class="btn btn--cta btn--red">Sign In / Sign Up</a>
             </div>
@@ -61,9 +61,9 @@
     <div class="container-fluid callout-container">  
         <div class="opaque-overlay">&nbsp;</div>  
         <div class="row">
-            <div class="col-12">
+            <div class="col-12">               
                 <section class="callout jumbotron text-center">
-                    <h1 class="jumbotron-header">The finest whiskeys delivered to your doorstep.</h1>
+                    <h1 class="jumbotron-header mt-5">The finest whiskeys delivered to your doorstep.</h1>
                     <hr class="block-divider block-divider--orange">
                     <p class="lead">Sign up today to start receiving the world's best whiskeys every month. 
                         <s class="d-none d-sm-inline">£19.99</s>
@@ -71,7 +71,7 @@
                         <strong><mark>First one is free!</mark></strong></p>
                         <button class="btn btn-lg btn--cta btn--red" data-toggle="modal" data-target="#signUpModal">Sign Up!</button>
                     <p class="text-muted"><small>You must be over 18 to sign up to our service. Please drink responsibly.</small></p>
-                </section>
+                </section>                
             </div>
         </div>
     </div>
@@ -161,11 +161,13 @@
 
     <!-- Favourites -->
     <div class="container-wrapper">
-        <div class="container favourites-container content-container">
+        <div class="container-fluid favourites-container content-container">
+            <div class="opaque-overlay">&nbsp;</div>  
             <div class="row">
                 <div class="col-12 page-header">
                     <section class="favourites">
                         <h2 class="text-uppercase"><i class="fas fa-glass-whiskey d-none d-sm-block"></i> Monthly favourites</h2>
+                        <hr class="block-divider block-divider--short block-divider--white">
                         <h4 class="my-4">Our top 5 whiskeys of the month!</h4>
                         <table class="table">
                             <thead class="thead-light">

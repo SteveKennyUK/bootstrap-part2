@@ -35,6 +35,7 @@ body {
     justify-content: center;
 
     position: relative;
+    
 }
 
 .opaque-overlay {
@@ -50,7 +51,17 @@ body {
 
 .features-container {}
 
-.favourites-container {}
+.favourites-container {
+    height: 120vh;
+    background: url('../img/whiskey-background-2.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    position: relative;
+
+}
 
 /* Page headers */
 
@@ -137,6 +148,27 @@ body {
     margin-bottom: 30px;
 }
 
+@media only screen and (max-width: 419.95px) {
+  .jumbotron {
+    margin-top: 8rem;
+  }
+  .callout-container {
+    height: 160vh;
+  }  
+}
+
+@media only screen and (max-width: 373.95px) {
+  .jumbotron {
+    margin-top: 8rem;
+  }
+  .callout-container {
+    height: 180vh;
+  }  
+  .favourites-container {
+    height: 160vh;
+  }  
+}
+
 .jumbotron .lead {
     margin: 25px 0;
     color: #fff2f2;
@@ -146,6 +178,23 @@ body {
     font-size: 60%;
     font-style: italic;
     color: #d0d0d0;
+}
+
+/* Favourites */
+
+.favourites h2,h4 {
+    color: #fff;
+}
+
+.table {
+    border: medium solid;
+    border-radius: 20px;
+    overflow: hidden;
+    border-collapse: separate;
+    border-spacing: 0;
+    background-color: #fff;
+    width: 75%;
+    margin: auto;
 }
 
 /* Buttons */
